@@ -20,14 +20,14 @@ public class StartServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String playerName = req.getParameter("playerName").trim();
+        String playerName = req.getParameter("playerName");
         if (playerName == null || playerName.trim().isEmpty()) {
             playerName = "Путишественник на дачу";
         }
 
         HttpSession session = req.getSession();
         // Сохраняем имя в сессии
-        session.setAttribute("playerName", playerName);
+        session.setAttribute("playerName", playerName.trim());
         session.setAttribute("gamesPlayer", 0);
 
         resp.sendRedirect(req.getContextPath() + GAME_START);
