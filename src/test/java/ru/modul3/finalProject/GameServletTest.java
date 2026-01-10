@@ -65,9 +65,6 @@ public class GameServletTest {
         when(request.getContextPath()).thenReturn("/quest");
     }
 
-    @Test
-    public void doGet() {
-    }
 
     @Test
     public void testDoGet_WithStepParameter_ShouldForwardToGamePage() throws ServletException, IOException {
