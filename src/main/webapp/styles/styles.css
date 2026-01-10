@@ -1,0 +1,31 @@
+body {
+    background: aqua;
+}
+.index {
+    text-align: center;
+    margin: 200px;
+}
+.indexH1 {
+    text-align: center;
+    margin: 100px;
+}
+
+
+.gameH1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.gameH2 {
+    text-align: center;
+    margin: 20px;
+}
+.gameDiv {
+    text-align: center;
+    margin: 20px;
+}
+.gameDiv1 {
+    text-align: end;
+}
+.gameP1, .gameP2 {
+}
