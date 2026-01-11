@@ -2,7 +2,8 @@ package ru.modul3.finalProject.model;
 
 import java.util.Objects;
 
-public class QuestStep {
+
+public class QuestStep { // model
 
     private String id;
     private String text;

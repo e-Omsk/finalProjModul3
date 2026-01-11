@@ -39,7 +39,7 @@ public class GameServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
 
-        // Получаем параемтры
+        // Получаем параемтры из request
         String answer = req.getParameter("answer");
         String currentStepId = req.getParameter("currentStep");
 

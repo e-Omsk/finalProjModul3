@@ -91,13 +91,11 @@ public class StartServletTest {
 
     @Test
     public void testDoPost_ShouldTrimPlayerName() throws ServletException, IOException {
-        // Given
+
         when(request.getParameter("playerName")).thenReturn("  Слава  ");
 
-        // When
         startServlet.doPost(request, response);
 
-        // Then
         verify(session).setAttribute("playerName", "Слава");
     }
 }

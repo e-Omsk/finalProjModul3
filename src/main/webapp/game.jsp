@@ -40,7 +40,7 @@
 
         <c:otherwise>
             <p>
- <!--               <a href="game?step=start">Возвращаемся к выбору транспортного средства?</a><br>   -->
+
                 <a href="start">Играть сначала.</a>
             </p>
         </c:otherwise>

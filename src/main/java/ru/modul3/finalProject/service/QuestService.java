@@ -5,7 +5,7 @@ import ru.modul3.finalProject.model.QuestStep;
 import java.util.HashMap;
 import java.util.Map;
 
-public class QuestService {
+public class QuestService { // service
 
     private final Map<String, QuestStep> steps = new HashMap<>();
 

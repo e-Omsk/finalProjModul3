@@ -61,7 +61,7 @@ public class GameServletTest {
         // Когда вызывается request.getRequestDispatcher() с любым строковым параметром,
         // возвращаем мок-диспетчер запросов
         when(request.getRequestDispatcher("/game.jsp")).thenReturn(requestDispatcher);
-        // Когда вызывается request.getContextPath(), возвращаем /quest
+        // Когда вызывается request.getContextPath(), возвращаем  /quest
         when(request.getContextPath()).thenReturn("/quest");
     }
 
