@@ -11,7 +11,7 @@
          <label for="playerName">Предстватесь:</label><br>
          <input type="text" id="playerName" name="playerName"
             placeholder="Введите ваше имя:" required
-            value="${sessionScope.playerName != null ? sessionScope.playerName : ''}"><br><br>
+            value="${sessionScope.playerName != null ? sessionScope.playerName : ''}"><br> <br>
     <button type="submit">Поехали!</button>
     </form>
 </body>

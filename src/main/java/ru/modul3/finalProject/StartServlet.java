@@ -26,7 +26,7 @@ public class StartServlet extends HttpServlet {
         }
 
         HttpSession session = req.getSession();
-        // Сохраняем имя в сессии
+        // Сохраняем  имя  в  сессии
         session.setAttribute("playerName", playerName.trim());
         session.setAttribute("gamesPlayer", 0);
 
